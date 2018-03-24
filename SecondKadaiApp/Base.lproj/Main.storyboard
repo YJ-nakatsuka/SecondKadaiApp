@@ -79,7 +79,7 @@
                                 <rect key="frame" x="50" y="191" width="275" height="30"/>
                                 <state key="normal" title="BACK"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ViewController" id="ngf-3B-xlb"/>
+                                    <segue destination="l02-tD-u7Q" kind="unwind" unwindAction="unwind:" id="xGw-PG-9ar"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cip-YX-r7p">
@@ -105,6 +105,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMV-Eh-RMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="l02-tD-u7Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1033" y="-54"/>
         </scene>
